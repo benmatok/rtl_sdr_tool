@@ -39,7 +39,7 @@ python3 main.py
 This will capture samples, compute the FFT-based spectrum, and display a plot (or save it if modified for headless use).
 
 ### Notes
-- The spectrum covers approximately ±1.024 MHz around 11.43 MHz (based on a 2.048 MHz sample rate).
+- The spectrum covers approximately ±1.024 MHz around XXX (based on a 2.048 MHz sample rate).
 - Customize `main.py` for different frequencies, sample rates, or to save plots (e.g., `plt.savefig('spectrum.png')`).
 - If building fails, ensure your host has libusb and other deps; the Dockerfile handles this inside the container.
 - For headless operation (no plot display), modify the script to save images instead of showing them.
