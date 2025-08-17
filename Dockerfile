@@ -26,7 +26,7 @@ RUN git clone https://github.com/osmocom/rtl-sdr.git \
 RUN pip3 install --no-cache-dir pyrtlsdr numpy matplotlib
 
 # Copy the Python script into the container
-COPY main.py /app/main.py
+RUN git clone https://github.com/benmatok/rtl_sdr_tool.git /app
 
 # Set working directory
 WORKDIR /app
